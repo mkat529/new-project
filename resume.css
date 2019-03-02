@@ -1,0 +1,49 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(2, 2, 2);
+    background-image: url('http://selectmyspace.com/wp-content/uploads/2017/09/CleanDeskFeature-1080x675.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name{
+    font-size: 40px;
+}
+
+.title{
+font-size: 25px;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom:  20px;
+    background-color: #f6f6ff;
+}
+
+.work { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 704.5px;
+    
+}
+.job{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
